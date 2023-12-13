@@ -1,0 +1,88 @@
+@import './base.css';
+
+
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #164863;
+  color: #ffffff;
+}
+
+.container-list {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    border: 3px solid #164863;
+  }
+}
+
+.container-details {
+  height: 53vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+
+    li {
+      list-style: none;
+      margin-top: 5px;
+    }
+  }
+  
+
+
+}
+
+button {
+  display: inline;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #164863;
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}

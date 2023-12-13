@@ -24,11 +24,11 @@ console.log(contactFound);
       <h3> {{ contactFound?.name }}</h3>
       <ul>
         <li>Name : {{ contactFound?.email }}</li>
-        <li>Phone :{{ contactFound?.phone }} </li>
+        <li>Phone : {{ contactFound?.phone }} </li>
         <li>City : {{ contactFound?.city }}</li>
-        <li>State :{{ contactFound?.state }} </li>
+        <li>State : {{ contactFound?.state }} </li>
         <li>Country : {{ contactFound?.country }}</li>
-        <li>organization :{{ contactFound?.organization }} </li>
+        <li>organization : {{ contactFound?.organization }} </li>
         <li>Job Profile : {{ contactFound?.jobProfile }}</li>
         <li>Additional Informations : {{ contactFound?.additionalInfo }} </li>
       </ul>

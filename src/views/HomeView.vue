@@ -12,8 +12,8 @@ console.log(contacts);
     <h2>Liste des clients <span>📖</span></h2>
     <article v-for="element of contacts" :key="element.id">
       <p><span>🙋‍♂️</span> {{ element.name }}</p>
-      <p><span>📧</span>{{ element.email }}</p>
-      <p><span>📱</span>{{ element.phone }}</p>
+      <p><span>📧</span> {{ element.email }}</p>
+      <p><span>📱</span> {{ element.phone }}</p>
       <RouterLink :to="`/contact/${element.id}`">
         <button>Cliquez pour plus de détails</button>
       </RouterLink>

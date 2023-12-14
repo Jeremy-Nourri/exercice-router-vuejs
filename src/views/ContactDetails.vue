@@ -10,7 +10,7 @@ const { contactId } = route.params;
 
 console.log(contactId);
 
-const contactFound = contacts.value.find(c => c.id === Number(contactId));
+const contactFound = contacts.value.find(contact => contact.id === Number(contactId));
 
 console.log(contactFound);
 </script>

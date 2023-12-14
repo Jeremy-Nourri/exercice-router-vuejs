@@ -9,9 +9,6 @@ const router = createRouter({
       path: '/',
       component : HomeView
     },
-    // {path: '/:pathMatch(.*)', redirect  : '/not-found' },
-    // {path: '/not-found' , component : NotFoundView},
-    // {path: '/contact' , component : ContactView},
     {
       path: '/contact/:contactId',
       component : ContactDetails
